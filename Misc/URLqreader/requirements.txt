@@ -1,0 +1,32 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Requirements
+
+1. Use Python 2.x (Unknown if compatible with 3.x)
+2. Required Python Modules
+- [sudo] pip install requests
+- [sudo] pip install PIL
+or
+- [sudo] pip install Pillow
+
+ \Reminder\ - If you have PIL installed but receive, "IOError: decoder zip not available" then\
+ try uninstalling and reinstalling PIL with:
+- pip uninstall PIL
+- pip install PIL
+| Incase it doesnt work try using Pillow |
+pip uninstall PIL
+pip install Pillow
+
+- [sudo] pip install pyqrcode
+- [sudo] pip install qrtools
+	- [sudo] apt-get update
+	- [sudo] apt-get install python-qrtools
+		- [sudo] pip install zbar
+	 \Reminder\ - If it fails to install because of zbar you can install its libraries
+			- [sudo] apt-get install libzbar-dev
+		- [sudo] pip install pillow
+
+3. Have an the initial image of QR Code in this directory named pic.jpg or you can switch the extension in the main code.
+4. Edit the code according to your preferences.
+~ That should be it ~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
